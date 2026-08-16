@@ -53,7 +53,7 @@ const projects = [
       'A live digital platform designed to make a complex offering feel clear, useful, and approachable through thoughtful information architecture and responsive design.',
     tags: ['Product design', 'Frontend', 'Responsive UI'],
     href: 'https://feedforwardarc.com/',
-    featured: true,
+    featured: false,
     github: 'https://github.com/AryaShah26/Feedforward-Eigen',
   },
   {
@@ -173,7 +173,7 @@ function App() {
             <div className="hero-meta"><span><MapPin size={15} /> Vadodara, India</span><span className="meta-divider" /><span>Open to meaningful work</span></div>
           </div>
           <div className="hero-visual reveal reveal-delay">
-            <div className="portrait-frame"><img src="/assets/images/Arya.Picturee.JPG" alt="Arya Shah" /><span className="portrait-label">Curious by default<br /><strong>Precise by practice.</strong></span></div>
+            <div className="portrait-frame"><img src="/assets/images/Arya.Picturee.JPG" alt="Arya Shah" /></div>
             <div className="orbit-note"><Sparkles size={18} /><span>Currently exploring<br /><strong>better digital systems</strong></span></div>
             <div className="hero-index">01 <span>/ 04</span></div>
           </div>

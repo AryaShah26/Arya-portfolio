@@ -187,7 +187,7 @@ function App() {
           <div className="section-kicker" data-reveal>01 <span>About me</span></div>
           <div className="about-content" data-reveal data-reveal-delay="1">
             <h2>I like the space between a <span>complex problem</span> and a simple answer.</h2>
-            <div className="about-columns"><p>My work sits at the intersection of engineering, product thinking, and practical impact. I enjoy understanding how a system works end to end \u2014 then making it more reliable, more intuitive, and easier for people to use.</p><p>From financial workflows to machine learning experiments and live digital experiences, I\u2019m at my best when I\u2019m learning quickly, collaborating openly, and shipping work that earns its place.</p></div>
+            <div className="about-columns"><p>My work sits at the intersection of engineering, product thinking, and practical impact. I enjoy understanding how a system works end to end, then making it more reliable, more intuitive, and easier for people to use.</p><p>From financial workflows to machine learning experiments and live digital experiences, I'm at my best when I'm learning quickly, collaborating openly, and shipping work that earns its place.</p></div>
             <div className="about-stats">
               {stats.map((stat) => <div className="stat" key={stat.label}><strong>{stat.value}</strong><span>{stat.label}</span></div>)}
             </div>

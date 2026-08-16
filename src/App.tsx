@@ -74,7 +74,7 @@ const projects = [
       'A backend-focused financial workflow for moving cheque processing into a more efficient digital lifecycle with dependable APIs, validations, and operational visibility.',
     tags: ['REST APIs', 'PostgreSQL', 'React', 'System design'],
     href: '#contact',
-    featured: false,
+    featured: true,
     github: 'https://github.com/AryaShah26/feedforward',
   },
   {
@@ -85,7 +85,7 @@ const projects = [
       'A professional web presence created to communicate a technology company’s capabilities with clarity, trust, and a polished digital-first experience.',
     tags: ['Web development', 'UI design', 'Deployment'],
     href: 'https://shakti-infotech-self.vercel.app/',
-    featured: true,
+    featured: false,
     github: 'https://github.com/AryaShah26/shakti.infotech',
   },
 ];

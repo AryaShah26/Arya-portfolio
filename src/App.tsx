@@ -64,7 +64,7 @@ const projects = [
       'An interactive web experience built around turning data and ideas into a more understandable, actionable digital journey.',
     tags: ['Web experience', 'Data storytelling', 'UX'],
     href: 'https://eigen.feedforwardarc.com/',
-    featured: false,
+    featured: true,
     github: 'https://github.com/AryaShah26/Feedforward-Eigen',
   },
   {

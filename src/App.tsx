@@ -168,7 +168,7 @@ function App() {
             <p className="hero-intro">I'm Arya Shah -- a software engineer who brings together thoughtful interfaces, reliable backend systems, and data-informed problem solving.</p>
             <div className="hero-actions">
               <a className="button button-dark" href="#work">Explore my work <ArrowUpRight size={17} /></a>
-              <a className="text-link" href="#contact">Let's connect <span>\u2197</span></a>
+              <a className="text-link" href="#contact">Let's connect <span>↗</span></a>
             </div>
             <div className="hero-meta"><span><MapPin size={15} /> Vadodara, India</span><span className="meta-divider" /><span>Open to meaningful work</span></div>
           </div>

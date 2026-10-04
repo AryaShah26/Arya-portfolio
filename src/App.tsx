@@ -87,7 +87,7 @@ const projects = [
     category: 'Business platform',
     title: 'Shakti Infotech',
     description:
-      'A professional web presence created to communicate a technology company\u2019s capabilities with clarity, trust, and a polished digital-first experience.',
+      "A professional web presence created to communicate a technology company's capabilities with clarity, trust, and a polished digital-first experience.",
     tags: ['Web development', 'UI design', 'Deployment'],
     href: 'https://shakti-infotech-self.vercel.app/',
     featured: false,
@@ -111,7 +111,7 @@ const capabilities = [
   {
     icon: 'cpu',
     title: 'Applied Machine Learning',
-    description: 'Practical ML workflows that turn data into decisions \u2014 from model training to deployment through lightweight web interfaces.',
+    description: 'Practical ML workflows that turn data into decisions — from model training to deployment through lightweight web interfaces.',
     tags: ['Python', 'Flask', 'Scikit-learn', 'Random Forest'],
   },
   {
@@ -132,20 +132,20 @@ const expertise = ['C#', '.NET Web API', 'ASP.NET MVC', 'React', 'TypeScript', '
 
 const journey = [
   {
-    date: 'May 2026 \u2014 Present',
-    company: 'MRI Software \u00b7 Vadodara, India',
+    date: 'May 2026 — Present',
+    company: 'MRI Software · Vadodara, India',
     role: 'Software Development Engineer 1',
     description: 'Building enterprise financial and workflow automation systems using C#, .NET Web API, SQL Server, and React. Optimizing SQL queries and backend workflows to improve performance, building REST APIs for production-ready applications, and contributing through code reviews, deployments, and Agile delivery.',
   },
   {
-    date: 'Jan 2026 \u2014 May 2026',
-    company: 'MRI Software \u00b7 Vadodara, India',
+    date: 'Jan 2026 — May 2026',
+    company: 'MRI Software · Vadodara, India',
     role: 'Software Engineering Intern',
     description: 'Built CRM workflow automation modules with React, JavaScript, .NET, and PostgreSQL. Improved reusable frontend components, SQL migration scripts, backend optimizations, debugging, deployments, and production support.',
   },
   {
-    date: 'Oct 2024 \u2014 Apr 2025',
-    company: 'Shakti Infotech \u00b7 Vadodara, India',
+    date: 'Oct 2024 — Apr 2025',
+    company: 'Shakti Infotech · Vadodara, India',
     role: 'Software Development & DevOps Intern',
     description: 'Contributed to enterprise cheque printing systems using ASP.NET MVC, SQL Server, and Azure DevOps. Managed CI/CD workflows, deployments, debugging, database operations, backend modules, SQL procedures, and production support activities.',
   },
@@ -210,7 +210,7 @@ function App() {
             <span>{darkMode ? 'Light' : 'Dark'}</span>
           </button>
           <a className="header-cta" href="/assets/resume/Arya_Shah_Resume.pdf" download>
-            R\u00e9sum\u00e9 <ArrowDown size={15} />
+            Résumé <ArrowDown size={15} />
           </a>
         </div>
       </header>
@@ -219,12 +219,12 @@ function App() {
         {/* Hero */}
         <section className="hero section-grid">
           <div className="hero-copy reveal">
-            <p className="eyebrow"><span className="eyebrow-line" /> Software engineer \u00b7 systems thinker</p>
+            <p className="eyebrow"><span className="eyebrow-line" /> Software engineer · systems thinker</p>
             <h1>Systems that work.<br />Code that <em>lasts.</em></h1>
-            <p className="hero-intro">I\u2019m Arya Shah \u2014 a software engineer at MRI Software building enterprise financial systems, applied ML workflows, and digital experiences. This is a collection of what I\u2019ve built and what I\u2019ve learned along the way.</p>
+            <p className="hero-intro">I'm Arya Shah — a software engineer at MRI Software building enterprise financial systems, applied ML workflows, and digital experiences. This is a collection of what I've built and what I've learned along the way.</p>
             <div className="hero-actions">
               <a className="button button-dark" href="#work">See my work <ArrowUpRight size={17} /></a>
-              <a className="text-link" href="#contact">Get in touch <span>\u2197</span></a>
+              <a className="text-link" href="#contact">Get in touch <span>↗</span></a>
             </div>
             <div className="hero-meta"><span><MapPin size={15} /> Vadodara, India</span><span className="meta-divider" /><span>Currently at MRI Software</span></div>
           </div>
@@ -256,8 +256,8 @@ function App() {
             <h2>The space between a <span>complex problem</span><br />and a simple answer.</h2>
           </div>
           <div className="about-body" data-reveal data-reveal-delay="1">
-            <p>My work sits at the intersection of engineering, product thinking, and practical impact. I enjoy understanding how a system works end to end \u2014 then making it more reliable, more intuitive, and easier for people to use.</p>
-            <p>From financial workflows to machine learning experiments and live digital experiences, I\u2019m at my best when I\u2019m learning quickly, collaborating openly, and shipping work that earns its place.</p>
+            <p>My work sits at the intersection of engineering, product thinking, and practical impact. I enjoy understanding how a system works end to end — then making it more reliable, more intuitive, and easier for people to use.</p>
+            <p>From financial workflows to machine learning experiments and live digital experiences, I'm at my best when I'm learning quickly, collaborating openly, and shipping work that earns its place.</p>
             <div className="expertise-tags">
               {expertise.map((tag) => <span key={tag}>{tag}</span>)}
             </div>
@@ -313,7 +313,7 @@ function App() {
         <section id="work" className="work section-space">
           <div className="section-header" data-reveal>
             <div className="section-label"><Code2 size={14} /> Featured work</div>
-            <h2>Things I\u2019ve made<br /><em>and learned from.</em></h2>
+            <h2>Things I've made<br /><em>and learned from.</em></h2>
             <p className="section-subtitle">A selection of projects across enterprise software, digital products, and applied intelligence.</p>
           </div>
           <div className="project-grid">
@@ -342,8 +342,8 @@ function App() {
           <div className="contact-card" data-reveal>
             <div className="contact-copy">
               <div className="section-label light"><Mail size={14} /> Get in touch</div>
-              <h2>Want to talk shop?<br /><em>Let\u2019s connect.</em></h2>
-              <p>I\u2019m always open to interesting conversations about engineering, systems design, or what I\u2019m working on. Feel free to reach out.</p>
+              <h2>Want to talk shop?<br /><em>Let's connect.</em></h2>
+              <p>I'm always open to interesting conversations about engineering, systems design, or what I'm working on. Feel free to reach out.</p>
               <div className="contact-links">
                 <a href="mailto:aryapshah2005@gmail.com"><Mail size={17} /> aryapshah2005@gmail.com</a>
                 <a href="https://www.linkedin.com/in/arya-26-shah/" target="_blank" rel="noreferrer"><Linkedin size={17} /> LinkedIn profile</a>
@@ -356,23 +356,23 @@ function App() {
               <label>Email address<input required type="email" value={form.email} onChange={(event) => setForm({ ...form, email: event.target.value })} placeholder="jane@company.com" /></label>
               <label>Message<textarea required rows={4} value={form.message} onChange={(event) => setForm({ ...form, message: event.target.value })} placeholder="What's on your mind?" /></label>
               <button className="button button-light" type="submit" disabled={status === 'sending'}>
-                {status === 'sending' ? 'Sending\u2026' : status === 'sent' ? <>Message sent <Check size={16} /></> : <>Send message <Send size={15} /></>}
+                {status === 'sending' ? 'Sending…' : status === 'sent' ? <>Message sent <Check size={16} /></> : <>Send message <Send size={15} /></>}
               </button>
               {status === 'error' && <p className="form-message error">Something went wrong. Please email me directly.</p>}
-              {status === 'sent' && <p className="form-message success">Thanks \u2014 your message is on its way.</p>}
+              {status === 'sent' && <p className="form-message success">Thanks — your message is on its way.</p>}
             </form>
           </div>
         </section>
       </main>
 
       <footer className="site-footer">
-        <span>\u00a9 {new Date().getFullYear()} Arya Shah</span>
+        <span>© {new Date().getFullYear()} Arya Shah</span>
         <span className="footer-love">Made with <Heart size={13} fill="currentColor" className="footer-heart" /> by Arya Shah</span>
         <div className="footer-links">
           <a href="https://github.com/AryaShah26" target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={17} /></a>
           <a href="https://www.linkedin.com/in/arya-26-shah/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={17} /></a>
           <a href="mailto:aryapshah2005@gmail.com" aria-label="Email"><Mail size={17} /></a>
-          <a href="/assets/resume/Arya_Shah_Resume.pdf" target="_blank" rel="noreferrer" aria-label="R\u00e9sum\u00e9"><ExternalLink size={17} /></a>
+          <a href="/assets/resume/Arya_Shah_Resume.pdf" target="_blank" rel="noreferrer" aria-label="Résumé"><ExternalLink size={17} /></a>
         </div>
       </footer>
     </div>
